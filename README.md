@@ -1,6 +1,29 @@
 # <img src="https://github.com/roblox-js/core/blob/main/img/banner.png?raw=true">
 
-[![View on NPM](https://img.shields.io/badge/View%20On%20NPM-purple?style=for-the-badge)](https://npmjs.com/package/bloxkit) [![View on Yarn](https://img.shields.io/badge/View%20On%20Yarn-blue?style=for-the-badge)](https://yarnpkg.com/package/bloxkit)
+[![View on NPM](https://img.shields.io/badge/View%20On%20NPM-0F0F0F?style=for-the-badge)](https://npmjs.com/package/roflare) [![View on Yarn](https://img.shields.io/badge/View%20On%20Yarn-0F0F0F?style=for-the-badge)](https://yarnpkg.com/package/roflare) [![View on Github](https://img.shields.io/badge/View%20On%20Github-0F0F0F?style=for-the-badge)](https://github.com/roblox-js/core) [![Typescript](https://img.shields.io/badge/roflare.ml-0F0F0F?style=for-the-badge)](https://roflare.ml) [![Typescript](https://img.shields.io/badge/built%20with%20typescript-0F0F0F?style=for-the-badge)](https://typescript.com)
 
-## notice
-This package isn't intended to be used as of now! To get updates on it's readiness please check the [Github repository!](https://github.com/roblox-js/core)
+## Overview
+
+Roflare allows you to interact with [Roblox's](https://roblox.com) web API in a variety of ways. A few examples are:
+- Fetch information about an experience
+- Fetch information about a user
+- Manage account using `.ROBLOSECURITY`
+
+### Installation
+
+```diff
+npm i roflare
+yarn add roflare
+```
+
+### Example
+
+To learn more about **Roflare**, visit the [documentation](https://docs.roflare.ml)
+
+```js
+const { GetUserAvatar } = require('roflare');
+
+(async () => {
+    console.log(await GetUserAvatar(4495638042))
+})()
+```
