@@ -1,0 +1,31 @@
+{
+  "name": "roflare",
+  "version": "1.0.0",
+  "description": "Effortlessly interact with the Roblox web API.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblox-js/core.git"
+  },
+  "keywords": [
+    "roblox",
+    "roblox-api",
+    "rblx",
+    "bloxy.js",
+    "rbx"
+  ],
+  "author": "roblox.js",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/roblox-js/core/issues"
+  },
+  "homepage": "https://docs.roflare.ml",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
