@@ -1,6 +1,8 @@
 import axios from 'axios';
 
 /* Gets image of user's current avatar */
+/** @returns {String} */
+
 
 export default async (id: Number, circular: Boolean) => {
   const res = await axios

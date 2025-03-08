@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 /* Gets user's username from id */
+/** @returns {string} */
 
 export default async (id: Number) => {
   const res = await axios

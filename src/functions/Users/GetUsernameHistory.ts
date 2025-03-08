@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 /* Gets user's username history */
-/** @returns {Array} */
+/** @returns {JSON} */
 
 export default async (id: Number) => {
   const res = await axios

@@ -5,9 +5,9 @@
 ## Overview
 
 Roflare allows you to interact with [Roblox's](https://roblox.com) web API in a variety of ways. A few examples are:
-- `[❌]`Fetch information about an experience
+- `[✅]`Fetch information about an experience
 - `[✅]` Fetch information about a user
-- `[❌]` Manage account using `.ROBLOSECURITY`
+- `[✅]` Manage account using `.ROBLOSECURITY`
 
 ### Installation
 

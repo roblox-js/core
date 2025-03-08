@@ -1,14 +1,28 @@
 import axios from 'axios';
 
 /* Gets results from user search */
-/** @returns {Array} */
+/**
+ * @enum {number} LimitOptions
+ * @value Ten - 10 results
+ * @value TwentyFive - 25 results
+ * @value Fifty - 50 results
+ * @value OneHundred - 100 results
+ * @returns {JSON}
+*/
 
-export default async (query: String, limit?: Number) => {
+export enum LimitOptions {
+  Ten = 10,
+  TwentyFive = 25,
+  Fifty = 50,
+  OneHundred = 100,
+}
+
+export default async (query: String, limit: LimitOptions = LimitOptions.Ten) => {
   const res = await axios
     .get('https://users.roblox.com/v1/users/search', {
       params: {
         keyword: query,
-        limit: limit || 10
+        limit: limit || LimitOptions.Ten
       },
     })
 

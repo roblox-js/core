@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 /* Gets user's id from username */
+/** @returns {string} */
 
 export default async (username: String) => {
 
