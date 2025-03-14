@@ -13,6 +13,8 @@ import { default as ShortenDevforumUserUrl } from './functions/Shorten/ShortenDe
 import { default as ShortenGameUrl } from './functions/Shorten/ShortenGameUrl';
 import { default as ShortenGroupUrl } from './functions/Shorten/ShortenGroupUrl';
 import { default as ShortenUserUrl } from './functions/Shorten/ShortenUserUrl';
+import { default as CheckCookie } from './functions/Account/CheckAuth';
+import { default as SendFriendRequest } from './functions/Account/SendFriendRequest';
 
 export {
   GetUserAvatar,
@@ -28,5 +30,7 @@ export {
   ShortenDevforumUserUrl,
   ShortenGameUrl,
   ShortenGroupUrl,
-  ShortenUserUrl
+  ShortenUserUrl,
+  CheckCookie,
+  //SendFriendRequest
 };

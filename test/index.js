@@ -1,5 +1,5 @@
-const { GetUserAvatar } = require('../lib/index.js');
+const roflare = require('../lib/index.js');
 
 (async () => {
-    console.log(await GetUserAvatar(4495638042))
+    console.log(await roflare.SendFriendRequest('597586305'))
 })()

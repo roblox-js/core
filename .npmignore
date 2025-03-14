@@ -3,3 +3,4 @@ tsconfig.json
 .prettierrc
 test/*
 img/*
+auth.json
