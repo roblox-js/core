@@ -7,7 +7,7 @@
 Roflare allows you to interact with [Roblox's](https://roblox.com) web API in a variety of ways. A few examples are:
 - `[✅]`Fetch information about an experience
 - `[✅]` Fetch information about a user
-- `[✅]` Manage account using `.ROBLOSECURITY`
+- `[✅]` Manage account
 
 Roflare provides secure access to authentication-required features without ever asking for your password. Our login process uses ROBLOX's quick login system, keeping your credentials safe while enabling full API functionality.
 
