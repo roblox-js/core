@@ -9,10 +9,15 @@ Roflare allows you to interact with [Roblox's](https://roblox.com) web API in a 
 - `[✅]` Fetch information about a user
 - `[✅]` Manage account using `.ROBLOSECURITY`
 
+Roflare provides secure access to authentication-required features without ever asking for your password. Our login process uses ROBLOX's quick login system, keeping your credentials safe while enabling full API functionality.
+
 ### Installation
 
-```diff
+```bash
+#npm
 npm i roflare
+
+# yarn
 yarn add roflare
 ```
 
@@ -24,6 +29,6 @@ To learn more about **Roflare**, visit the [documentation](https://docs.roflare.
 const { GetUserAvatar } = require('roflare');
 
 (async () => {
-    console.log(await GetUserAvatar(4495638042))
+    console.log(await GetUserAvatar(1)) 
 })()
 ```
