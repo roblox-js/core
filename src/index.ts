@@ -19,4 +19,8 @@ export { default as GetGroupName } from './functions/Group/GetGroupName';
 export { default as GetGroupOwner } from './functions/Group/GetGroupOwner';
 export { default as GetGroupMemberCount } from './functions/Group/GetGroupMemberCount';
 export { default as GetGroupShout } from './functions/Group/GetGroupShout';
+export { default as GetPlaceInfo } from './functions/Place/GetPlaceInfo';
+export { default as GetPlaceName } from './functions/Place/GetPlaceName';
+export { default as GetPlaceBuilder } from './functions/Place/GetPlaceBuilder';
+export { default as GetPlaceDescription } from './functions/Place/GetPlaceDescription';
 // WIP: export { default as SendFriendRequest } from './functions/Account/SendFriendRequest';

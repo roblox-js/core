@@ -18,8 +18,8 @@ import axios from 'axios';
  */
 
 export default async (id: number | string): Promise<object> => {
-  const response = await axios.get(`https://groups.roblox.com/v1/groups/${id}`);
-  return {
+    const response = await axios.get(`https://www.roblox.com/places/api-get-details?assetId=${id}`);
+    return {
     Builder: response.data.Builder,
     BuilderId: response.data.BuilderId,
     BuilderAbsoluteUrl: response.data.BuilderAbsoluteUrl,
