@@ -1,10 +1,10 @@
-export { default as GetUserAvatar } from './functions/Users/GetUserAvatar';
-export { default as GetUserAvatarHeadshot } from './functions/Users/GetUserAvatarHeadshot';
-export { default as GetUsername } from './functions/Users/GetUsername';
-export { default as GetUserDisplayName } from './functions/Users/GetUserDisplayName';
-export { LimitOptions, default as UserSearch } from './functions/Users/UserSearch';
-export { default as GetUsernameHistory } from './functions/Users/GetUsernameHistory';
-export { default as GetUserId } from './functions/Users/GetUserId';
+export { default as GetUserAvatar } from './functions/User/GetUserAvatar';
+export { default as GetUserAvatarHeadshot } from './functions/User/GetUserAvatarHeadshot';
+export { default as GetUsername } from './functions/User/GetUsername';
+export { default as GetUserDisplayName } from './functions/User/GetUserDisplayName';
+export { LimitOptions, default as UserSearch } from './functions/User/UserSearch';
+export { default as GetUsernameHistory } from './functions/User/GetUsernameHistory';
+export { default as GetUserId } from './functions/User/GetUserId';
 export { default as ShortenAssetUrl } from './functions/Shorten/ShortenAssetUrl';
 export { default as ShortenClothingUrl } from './functions/Shorten/ShortenClothingUrl';
 export { default as ShortenDevforumUrl } from './functions/Shorten/ShortenDevforumUrl';
