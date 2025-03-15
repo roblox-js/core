@@ -4,6 +4,7 @@ export { default as GetUsername } from './functions/User/GetUsername';
 export { default as GetUserDisplayName } from './functions/User/GetUserDisplayName';
 export { LimitOptions, default as UserSearch } from './functions/User/UserSearch';
 export { default as GetUsernameHistory } from './functions/User/GetUsernameHistory';
+export { default as GetUserStatus } from './functions/User/GetUserStatus';
 export { default as GetUserId } from './functions/User/GetUserId';
 export { default as ShortenAssetUrl } from './functions/Shorten/ShortenAssetUrl';
 export { default as ShortenClothingUrl } from './functions/Shorten/ShortenClothingUrl';
