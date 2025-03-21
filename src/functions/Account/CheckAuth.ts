@@ -13,7 +13,8 @@ export default async () => {
   // Define paths for cookies and QR codes
   const COOKIE_PATH = path.join(projectDir, 'auth.json');
   const cookiesString = await fs.readFile(COOKIE_PATH, "utf-8");
-  const cookies = JSON.parse(cookiesString);
+  var cookies = JSON.parse(cookiesString);
+  cookies = cookies.cookies;
 
   const cookieString = cookies.map((cookie: any) => `${cookie.name}=${cookie.value}`).join("; ");
 

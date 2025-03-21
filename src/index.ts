@@ -13,7 +13,7 @@ export { default as ShortenDevforumUserUrl } from './functions/Shorten/ShortenDe
 export { default as ShortenGameUrl } from './functions/Shorten/ShortenGameUrl';
 export { default as ShortenGroupUrl } from './functions/Shorten/ShortenGroupUrl';
 export { default as ShortenUserUrl } from './functions/Shorten/ShortenUserUrl';
-export { default as CheckCookie } from './functions/Account/CheckAuth';
+export { default as CheckAuth } from './functions/Account/CheckAuth';
 export { default as GetGroupDescription } from './functions/Group/GetGroupDescription';
 export { default as GetGroupInfo } from './functions/Group/GetGroupInfo';
 export { default as GetGroupName } from './functions/Group/GetGroupName';
