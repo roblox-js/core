@@ -24,4 +24,6 @@ export { default as GetPlaceInfo } from './functions/Place/GetPlaceInfo';
 export { default as GetPlaceName } from './functions/Place/GetPlaceName';
 export { default as GetPlaceBuilder } from './functions/Place/GetPlaceBuilder';
 export { default as GetPlaceDescription } from './functions/Place/GetPlaceDescription';
-// WIP: export { default as SendFriendRequest } from './functions/Account/SendFriendRequest';
+export { default as SendFriendRequest } from './functions/User/SendFriendRequest';
+export { default as IsFriendWithUser } from './functions/User/IsFriendsWithUser';
+export { default as GetUserFriendList } from './functions/User/GetUserFriendList';
