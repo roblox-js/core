@@ -33,3 +33,7 @@ export { default as BlockUser } from './functions/User/BlockUser';
 export { default as UnblockUser } from './functions/User/UnblockUser';
 export { default as FollowUser } from './functions/User/FollowUser';
 export { default as UnfollowUser } from './functions/User/UnfollowUser';
+export { default as LeaveGroup } from './functions/Group/LeaveGroup';
+export { default as JoinGroup } from './functions/Group/JoinGroup';
+export { default as MakeGroupPrimary } from './functions/Group/MakeGroupPrimary';
+export { default as PostGroupShout } from './functions/Group/PostGroupShout';
