@@ -5,7 +5,7 @@
 ## Overview
 
 Roflare allows you to interact with [Roblox's](https://roblox.com) web API in a variety of ways. A few examples are:
-- `[✅]`Fetch information about an experience
+- `[✅]` Fetch information about an experience
 - `[✅]` Fetch information about a user
 - `[✅]` Manage account
 
@@ -42,5 +42,6 @@ const friendList = await Roflare.GetUserFriendList(userId)
 // Send friend request to all user in friendList
 friendList.forEach(user => {
     await Roflare.AddFriend(user.id)
+    console.log(`Sent friend request: ${Roflare.ShortenUserUrl(user.id))}`)
 })
 ```
