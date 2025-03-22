@@ -2,8 +2,9 @@ import axios from 'axios';
 import { getCsrfToken, refreshCsrfToken } from '../../utils/AuthHelper'; // Adjust the path if needed
 
 /**
+ * 🔑 **Authentication is required**
+ * 
  * Sends a friend request to the specified user
- * 🔑 Authentication is required
  * @param {string | number} userId - The ID of the user
  * @returns {Promise<Object>}
  */

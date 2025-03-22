@@ -27,3 +27,9 @@ export { default as GetPlaceDescription } from './functions/Place/GetPlaceDescri
 export { default as SendFriendRequest } from './functions/User/SendFriendRequest';
 export { default as IsFriendWithUser } from './functions/User/IsFriendsWithUser';
 export { default as GetUserFriendList } from './functions/User/GetUserFriendList';
+export { default as GetUserBio } from './functions/User/GetUserBio';
+export { default as GetUserBadges } from './functions/User/GetUserBadges';
+export { default as BlockUser } from './functions/User/BlockUser';
+export { default as UnblockUser } from './functions/User/UnblockUser';
+export { default as FollowUser } from './functions/User/FollowUser';
+export { default as UnfollowUser } from './functions/User/UnfollowUser';

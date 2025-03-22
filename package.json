@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/roblox-js/core/issues"
   },
-  "homepage": "https://docs.roflare.ml",
+  "homepage": "https://docs.roflare.com",
   "devDependencies": {
     "@types/puppeteer": "^7.0.4",
     "typescript": "^5.0.4"
