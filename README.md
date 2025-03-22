@@ -41,6 +41,6 @@ const friendList = await Roflare.GetUserFriendList(userId)
 
 // Send friend request to all user in friendList
 friendList.forEach(user => {
-    await Roflare.SendFriendRequest(user.id)
+    await Roflare.AddFriend(user.id)
 })
 ```
