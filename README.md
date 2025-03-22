@@ -1,5 +1,4 @@
-**<center><a href="https://roflare.com
-">https://roflare.com<a></center>**
+
 # <img src="https://github.com/roblox-js/core/blob/main/img/banner.png?raw=true">
 [![View on NPM](https://img.shields.io/badge/View%20On%20NPM-0F0F0F?style=for-the-badge)](https://npmjs.com/package/roflare) [![View on Yarn](https://img.shields.io/badge/View%20On%20Yarn-0F0F0F?style=for-the-badge)](https://yarnpkg.com/package/roflare) [![View on Github](https://img.shields.io/badge/View%20On%20Github-0F0F0F?style=for-the-badge)](https://github.com/roblox-js/core) [![Typescript](https://img.shields.io/badge/roflare.ml-0F0F0F?style=for-the-badge)](https://docs.roflare.com/) [![Typescript](https://img.shields.io/badge/built%20with%20typescript-0F0F0F?style=for-the-badge)](https://typescript.com)
 
