@@ -26,9 +26,20 @@ yarn add roflare
 To learn more about **Roflare**, visit the [documentation](https://docs.roflare.ml)
 
 ```js
-const { GetUserAvatar } = require('roflare');
+import * as Roflare from 'roflare'
 
-(async () => {
-    console.log(await GetUserAvatar(1)) 
-})()
+const userId = 80254
+const friendList = await Roflare.GetUserFriendList(userId)
+// [
+//  {
+//    "id": 1617749303,
+//    "name": "bk52540",
+//    "displayName": "BKmusic"
+//  },
+//  ...
+// ]
+
+friendList.forEach(user => {
+    await Roflare.SendFriendRequest(user.id)
+})
 ```
